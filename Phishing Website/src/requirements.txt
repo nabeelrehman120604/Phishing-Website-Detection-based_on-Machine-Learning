@@ -1,0 +1,9 @@
+Flask
+pandas
+numpy
+scikit-learn
+tldextract
+requests
+beautifulsoup4
+python-whois
+gunicorn

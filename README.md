@@ -44,9 +44,9 @@ The app not only predicts if a URL is phishing but also provides **human-readabl
 
 ---
 ### Website URL
-```bash
+
 https://phishing-website-detection-6sh4.onrender.com
-```
+
 ---
 
 ### 🤝 Contributors  

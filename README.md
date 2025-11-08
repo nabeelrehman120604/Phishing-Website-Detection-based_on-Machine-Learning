@@ -43,7 +43,7 @@ The app not only predicts if a URL is phishing but also provides **human-readabl
    👉 **http://127.0.0.1:5000**
 
 ---
-### Website URL
+### 📎 Website URL
 
 https://phishing-website-detection-6sh4.onrender.com
 

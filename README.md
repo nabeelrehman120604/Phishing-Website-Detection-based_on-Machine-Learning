@@ -45,8 +45,8 @@ The app not only predicts if a URL is phishing but also provides **human-readabl
 ---
 
 ### 🤝 Contributors  
-- **You (Project Owner)**  
-- **Your Cousin (Collaborator)**  
+- **Nabeel UrRehman**  
+- **Syed Saad Ali**  
 
 ---
 

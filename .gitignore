@@ -1,0 +1,41 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Flask & local development files
+instance/
+*.log
+*.db
+*.sqlite3
+
+# PyCharm / VS Code settings
+.idea/
+.vscode/
+
+# Model and dataset artifacts
+*.pkl
+*.joblib
+*.arff
+*.csv
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Render / Deployment cache
+*.pid
+*.coverage
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks checkpoints (if any)
+.ipynb_checkpoints/

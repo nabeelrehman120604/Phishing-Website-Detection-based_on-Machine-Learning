@@ -1,10 +1,12 @@
 from flask import Flask, render_template, request
+from flask_cors import CORS
 import joblib
 import pandas as pd
 import random
 from feature_extraction import extract_features
 
 app = Flask(__name__)
+CORS(app)  # <-- this line enables cross-origin access
 
 # Load trained model
 model = joblib.load("rf_model.pkl")

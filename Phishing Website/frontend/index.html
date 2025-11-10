@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phishing Website Detector</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔍</text></svg>">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <div class="page-wrap">
+    <div class="container">
+      <h1>🔍 Phishing Website Detection</h1>
+
+      <!-- URL Input Form -->
+      <form id="urlForm">
+        <input type="text" id="url" name="url"
+               placeholder="Enter any website URL here"
+               required>
+        <button type="submit">Check</button>
+      </form>
+
+      <!-- URL Display -->
+      <p id="urlDisplay" class="url-display" style="display:none; margin-top:20px; text-align:center;">
+        <strong>URL:</strong> <span id="displayedUrl"></span>
+      </p>
+
+      <!-- Result Box -->
+      <div id="resultBox" class="result" style="display:none;">
+        <h2 id="resultText"></h2>
+
+        <div id="reasonSection" style="display:none;">
+          <p style="text-align:center; font-weight:500; color:#374151; margin:10px 0 14px 0;">
+            Want to know why this website seems suspicious? 👇 Click below for details.
+          </p>
+
+          <div style="text-align:center;">
+            <button type="button" id="toggleDetails"
+                    style="background-color:#2563eb; color:white; border:none; padding:10px 18px;
+                           border-radius:6px; font-weight:600; cursor:pointer;">
+              ▼ Show More Details
+            </button>
+          </div>
+
+          <div id="detailsBox" style="display:none; margin-top:16px; text-align:left;">
+            <ul id="reasonList" style="list-style:none; padding:0; color:#555; max-width:700px; margin:0 auto;"></ul>
+          </div>
+        </div>
+
+        <button type="button" class="reset-btn" onclick="resetForm()">🔄 Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Maintenance Banner -->
+  <footer class="maintenance-banner">
+    <span class="maintenance-text">
+      ⚠️ This website is under active improvement, all features work normally.
+    </span>
+  </footer>
+</body>
+</html>

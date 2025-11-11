@@ -45,7 +45,7 @@ The app not only predicts if a URL is phishing but also provides **human-readabl
 ---
 ### 📎 Website URL
 
-https://phishing-website-detection-codemates-ns.vercel.app
+https://phishing-website-detection-codemates-ns.onrender.com
 
 ---
 
